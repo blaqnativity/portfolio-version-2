@@ -1,0 +1,76 @@
+/* Nunito fonts import */
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+/* logo font */
+@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Orbitron:wght@400..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-image: url("assets/img/hero.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  scroll-behavior: smooth;
+  transition: all 400ms ease;
+}
+
+/* Logo styling */
+.logo {
+  font-family: "Cedarville Cursive", cursive;
+  font-weight: 400;
+  @apply text-4xl font-bold text-gray-800;
+}
+
+/* buttons css */
+.mainBtn {
+  @apply bg-blue-700 text-white py-4 px-6 rounded-full w-fit hover:bg-blue-800 font-medium;
+}
+
+/* icons */
+.icon {
+  @apply text-3xl font-medium;
+}
+
+/* texts stylings */
+.headerText {
+  @apply text-gray-800 font-bold md:text-6xl max-w-[70%];
+}
+.headerText2 {
+  @apply text-gray-800 font-bold md:text-5xl max-w-[70%];
+}
+.headerText2White {
+  @apply text-white font-bold md:text-5xl max-w-[70%];
+}
+.lead {
+  @apply text-2xl font-bold text-gray-600;
+}
+.lightText {
+  @apply text-sm font-normal text-slate-400;
+}
+.pText {
+  @apply text-lg font-semibold text-slate-700;
+}
+/* Hero section background */
+#hero {
+  background-image: url();
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+/* navlinks */
+.router-link-active {
+  @apply text-sm text-gray-700 font-bold uppercase hover:text-blue-800;
+}
+
+/* info boxes */
+.infoBox {
+  @apply bg-white shadow-md p-4 rounded-md space-y-4 flex flex-col items-start justify-center hover:shadow-xl;
+}
