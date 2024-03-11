@@ -2,7 +2,8 @@
   <section class="grid items-center justify-items-center p-6 shadow-md">
     <form @submit.prevent class="p-6 space-y-10">
       <div class="title">
-        <h1 class="headerText2 text-left md:text-start">A bit about me</h1>
+        <p class="pText">Contact</p>
+        <h1 class="headerText2 text-left md:text-start">Get in touch</h1>
       </div>
       <div class="flex flex-col">
         <label class="pText">Name:</label>
