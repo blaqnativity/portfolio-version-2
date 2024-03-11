@@ -56,9 +56,6 @@ body {
   @apply text-lg font-semibold text-slate-700;
 }
 /* Hero section background */
-#hero {
-  background-image: url();
-}
 
 img {
   width: 100%;
@@ -66,9 +63,12 @@ img {
 }
 
 /* navlinks */
-.router-link-active {
+/* .router-link-active {
   @apply text-sm text-gray-700 font-bold uppercase hover:text-blue-800;
-}
+} */
+/* .router-link-exact-active {
+  @apply text-sm font-bold text-blue-800;
+} */
 
 /* info boxes */
 .infoBox {
@@ -78,4 +78,14 @@ img {
 /* div line */
 .line {
   @apply bg-gray-400 h-[1px] w-[80%] rounded-xl;
+}
+
+.pill {
+  @apply text-white bg-blue-700 px-5 py-3 rounded-2xl font-bold md:text-xl;
+}
+
+/* input box styling */
+input,
+textarea {
+  @apply text-lg text-gray-700 font-medium outline-none border-b-2 w-[80vh] bg-transparent p-2;
 }

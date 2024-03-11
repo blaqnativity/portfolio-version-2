@@ -2,19 +2,21 @@
   <!-- ==============Navbar Section=============== -->
   <nav class="relative p-6 flex justify-between items-center z-20">
     <div class="flex items-center">
-      <button class="logo">{{ logo }}</button>
+      <NuxtLink to="/" class="logo">{{ logo }}</NuxtLink>
+      <!-- <button class="logo">{{ logo }}</button> -->
     </div>
 
     <!-- nav menu -->
-    <ul class="main_menu hidden space-x-10 md:flex items-center">
+    <!-- <ul class="main_menu hidden space-x-10 md:flex items-center">
       <li v-for="link in links" :key="link.url">
         <NuxtLink :to="link.url">{{ link.text }}</NuxtLink>
       </li>
+    </ul> -->
 
-      <a href="assets" class="mainBtn" download="olukayode.pdf"
-        >Download my Resume</a
-      >
-    </ul>
+    <!-- download resume link -->
+    <a href="assets" class="mainBtn" download="olukayode.pdf"
+      >Download my resume</a
+    >
 
     <div class="block md:hidden" @click="toggleBtn">
       <span class="material-symbols-outlined" v-if="showMenu">
@@ -23,14 +25,13 @@
       <span class="material-symbols-outlined" v-else> menu </span>
     </div>
 
-    <div class="dropdown_menu" v-if="showMenu">
+    <!-- <div class="dropdown_menu" v-if="showMenu">
       <ul class="main_menu space-x-10 md:flex">
-        <!-- Remove md:hidden class -->
         <li v-for="link in links" :key="link.url">
           <NuxtLink :to="link.url">{{ link.text }}</NuxtLink>
         </li>
       </ul>
-    </div>
+    </div> -->
   </nav>
 </template>
 
@@ -41,9 +42,8 @@ export default {
       showMenu: false,
       logo: "Olukayode_",
       links: [
-        { text: "Work", url: "/" },
-        { text: "Services", url: "/" },
-        { text: "About", url: "/" },
+        { text: "Portfolio", url: "/" },
+        { text: "Contact", url: "/" },
       ],
     };
   },

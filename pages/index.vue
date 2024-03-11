@@ -9,7 +9,10 @@
       <h1 class="headerText">
         Building digital products, brands and experience
       </h1>
-      <MainBtn buttonText="Hire me now" />
+
+      <NuxtLink to="/ContactView" class="mainBtn uppercase"
+        >Hire me now</NuxtLink
+      >
     </div>
   </section>
   <!-- Hero section end -->
@@ -123,6 +126,36 @@
   </section>
   <!-- about me end -->
 
+  <!-- ================Skills Section=============== -->
+  <section class="mt-32 mb-10">
+    <div class="container mx-auto px-6 space-y-6">
+      <div class="flex flex-col space-y-4 items-center">
+        <h4 class="lead">Skills</h4>
+        <h2 class="headerText2">Tech Stack.</h2>
+        <p class="lead">
+          I have experience working with the following technologies
+        </p>
+      </div>
+
+      <div class="flex flex-wrap items-center justify-center gap-6">
+        <span class="pill">HTML</span>
+        <span class="pill">CSS</span>
+        <span class="pill">Javascript (ES6)</span>
+        <span class="pill">Vue-JS</span>
+        <span class="pill">NUXT-3</span>
+        <span class="pill">Tailwindcss</span>
+        <span class="pill">Bootstrapcss</span>
+        <span class="pill">Figma</span>
+        <span class="pill">Adobe XD</span>
+        <span class="pill">Canva Design</span>
+        <span class="pill">Webflow</span>
+        <span class="pill">Wordpress</span>
+        <span class="pill">Netlify</span>
+        <span class="pill">Git</span>
+      </div>
+    </div>
+  </section>
+
   <!-- footer section -->
   <section
     id="footer"
@@ -141,17 +174,6 @@
         <span class="material-symbols-outlined"> contact_mail </span>
         <h3 class="">theolukayodeasemudara@gmail.com</h3>
       </div>
-
-      <!-- <div
-        class="text-white flex flex-col md:flex-row gap-6 items-center justify-center"
-      >
-        <a href="https://www.linkedin.com/in/asemudara-olukayode-8b04ba196/"
-          ><i class="fa-brands fa-github"></i
-        ></a>
-        <a href="https://github.com/blaqnativity"
-          ><i class="fa-brands fa-github"></i
-        ></a>
-      </div> -->
     </div>
   </section>
 </template>
