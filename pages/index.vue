@@ -1,6 +1,9 @@
 <template>
   <!-- Hero section start -->
-  <section id="hero" class="p-6 flex items-center justify-center h-[80vh]">
+  <section
+    id="hero"
+    class="p-6 flex items-center justify-center h-[50vh] md:h-[80vh]"
+  >
     <div class="flex items-center text-center flex-col space-y-6">
       <p class="lead">Hey there, I'm Olukayode Asemudara</p>
       <h1 class="headerText">
@@ -16,7 +19,7 @@
     <div>
       <div class="space-y-4 md:ml-32">
         <p class="lead">my services...</p>
-        <h1 class="headerText2 text-center md:text-start">
+        <h1 class="headerText2 text-left md:text-start">
           The work I do, and business I help.
         </h1>
       </div>
@@ -78,7 +81,7 @@
     >
       <!-- text area left -->
       <div class="space-y-6">
-        <h1 class="headerText2 text-center md:text-start">A bit about me</h1>
+        <h1 class="headerText2 text-left md:text-start">A bit about me</h1>
         <p class="pText">
           Olukayode is a Software Engineer, Olukayode has two years experience
           providing front-end development, producing high quality responsive
@@ -101,18 +104,18 @@
       <!-- text area right -->
       <div class="space-y-4">
         <div class="space-y-6">
-          <span class="headerText">3+</span>
+          <span class="headerText2">3+</span>
           <p class="lead">Years Of Experience in Wordpress Site Development</p>
         </div>
         <div class="line"></div>
         <div class="space-y-6">
-          <span class="headerText">2+</span>
+          <span class="headerText2">2+</span>
           <p class="lead">Years of Frontend Design</p>
         </div>
 
         <div class="line"></div>
         <div class="space-y-6">
-          <span class="headerText">3</span>
+          <span class="headerText2">3</span>
           <p class="lead">Portfolios out there...</p>
         </div>
       </div>
@@ -123,13 +126,30 @@
   <!-- footer section -->
   <section
     id="footer"
-    class="mt-32 rounded-xl p-6 grid grid-cols-1 items-center justify-items-start w-[100%] h-[50vh] bg-gray-900"
+    class="mt-32 rounded-xl p-6 grid items-start md:items-center w-[100%] h-[50vh] bg-gray-900"
   >
     <div class="space-y-10">
       <h1 class="headerText2White md:text-start">Have an idea?</h1>
-      <h1 class="headerText2White md:text-start">Let's talk</h1>
+      <h1 class="headerText2White md:text-start flex items-center">
+        Let's talk <span class="material-symbols-outlined"> north_east </span>
+      </h1>
     </div>
 
-    <div></div>
+    <!-- footer links -->
+    <div class="grid grid-cols-1 md:grid-cols-2 justify-center items-center">
+      <div class="flex gap-2 items-center text-white">
+        <span class="material-symbols-outlined"> contact_mail </span>
+        <h3 class="">theolukayodeasemudara@gmail.com</h3>
+      </div>
+
+      <div
+        class="text-white flex flex-col md:flex-row gap-6 items-center justify-center"
+      >
+        <a href="https://www.linkedin.com/in/asemudara-olukayode-8b04ba196/"
+          >LinkedIn</a
+        >
+        <a href="https://github.com/blaqnativity">GitHub</a>
+      </div>
+    </div>
   </section>
 </template>

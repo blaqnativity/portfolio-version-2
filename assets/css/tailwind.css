@@ -41,13 +41,13 @@ body {
   @apply text-gray-800 font-bold md:text-6xl max-w-[70%];
 }
 .headerText2 {
-  @apply text-gray-800 font-bold md:text-5xl max-w-[70%];
+  @apply text-2xl text-gray-800 font-bold md:text-5xl max-w-[70%];
 }
 .headerText2White {
-  @apply text-white font-bold md:text-5xl max-w-[70%];
+  @apply text-2xl text-white font-bold md:text-5xl max-w-[70%];
 }
 .lead {
-  @apply text-2xl font-bold text-gray-600;
+  @apply text-xl md:text-2xl font-bold text-gray-600;
 }
 .lightText {
   @apply text-sm font-normal text-slate-400;
@@ -73,4 +73,9 @@ img {
 /* info boxes */
 .infoBox {
   @apply bg-white shadow-md p-4 rounded-md space-y-4 flex flex-col items-start justify-center hover:shadow-xl;
+}
+
+/* div line */
+.line {
+  @apply bg-gray-400 h-[1px] w-[80%] rounded-xl;
 }
