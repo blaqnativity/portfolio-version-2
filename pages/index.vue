@@ -2,7 +2,7 @@
   <!-- Hero section start -->
   <section
     id="hero"
-    class="p-6 flex items-center justify-center h-[50vh] md:h-[80vh]"
+    class="p-6 flex items-center justify-center h-[50vhnote] md:h-[80vh]"
   >
     <div class="flex items-center text-center flex-col space-y-6">
       <p class="lead">Hey there, I'm Olukayode Asemudara</p>
@@ -126,7 +126,7 @@
   <!-- footer section -->
   <section
     id="footer"
-    class="mt-32 rounded-xl p-6 grid items-start md:items-center w-[100%] h-[50vh] bg-gray-900"
+    class="mt-32 rounded-xl p-6 grid items-start md:items-center w-[100%] h-[30vh] md:h-[50vh] bg-gray-900"
   >
     <div class="space-y-10">
       <h1 class="headerText2White md:text-start">Have an idea?</h1>
@@ -142,14 +142,16 @@
         <h3 class="">theolukayodeasemudara@gmail.com</h3>
       </div>
 
-      <div
+      <!-- <div
         class="text-white flex flex-col md:flex-row gap-6 items-center justify-center"
       >
         <a href="https://www.linkedin.com/in/asemudara-olukayode-8b04ba196/"
-          >LinkedIn</a
-        >
-        <a href="https://github.com/blaqnativity">GitHub</a>
-      </div>
+          ><i class="fa-brands fa-github"></i
+        ></a>
+        <a href="https://github.com/blaqnativity"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+      </div> -->
     </div>
   </section>
 </template>
