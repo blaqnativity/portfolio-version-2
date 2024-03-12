@@ -2,7 +2,7 @@
   <!-- Hero section start -->
   <section
     id="hero"
-    class="p-6 flex items-center justify-center h-[50vhnote] md:h-[80vh]"
+    class="p-6 flex items-center justify-center h-[50vh] md:h-[80vh]"
   >
     <div class="flex items-center text-center flex-col space-y-6">
       <p class="lead">Hey there, I'm Olukayode Asemudara</p>

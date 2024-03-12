@@ -87,5 +87,5 @@ img {
 /* input box styling */
 input,
 textarea {
-  @apply text-lg text-gray-500 font-medium outline-none border-b-2 w-[80vh] bg-transparent p-2;
+  @apply text-lg text-gray-500 font-medium outline-none w-[100%] border-b-2 bg-transparent p-2;
 }
