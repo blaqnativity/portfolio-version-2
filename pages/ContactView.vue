@@ -1,6 +1,8 @@
 <template>
-  <section class="grid items-center justify-items-center p-6 shadow-md">
-    <form @submit.prevent class="space-y-10">
+  <section
+    class="grid items-center justify-items-center p-6 shadow-md h-screen"
+  >
+    <form @submit.prevent class="space-y-10 w-[100%]">
       <div class="title">
         <p class="pText">Contact</p>
         <h1 class="headerText2 text-left md:text-start">Get in touch</h1>
