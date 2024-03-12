@@ -86,6 +86,12 @@ img {
 
 /* input box styling */
 input,
-textarea {
+textarea,
+select {
   @apply text-lg text-gray-500 font-medium outline-none w-[100%] border-b-2 bg-transparent py-2;
+}
+
+/* error message styling */
+.error {
+  @apply bg-red-600 text-white p-3 rounded-md w-[full] grid items-center justify-items-center;
 }
