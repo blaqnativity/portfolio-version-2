@@ -1,6 +1,6 @@
 <template>
   <!-- ==============Navbar Section=============== -->
-  <section id="navbar" class="w-[100vw]">
+  <section id="navbar" class="w-[100%]">
     <nav class="flex justify-between items-center p-6 w-[100%]">
       <NuxtLink to="/" class="logo">{{ logo }}</NuxtLink>
 
